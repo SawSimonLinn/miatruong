@@ -1,0 +1,34 @@
+{
+  "placeholderImages": [
+    {
+      "id": "profile-avatar",
+      "description": "Mia Truong's profile avatar",
+      "imageUrl": "https://picsum.photos/seed/mia-avatar/200/200",
+      "imageHint": "profile portrait"
+    },
+    {
+      "id": "project-momentum",
+      "description": "Screenshot of the Momentum Internship Program Website",
+      "imageUrl": "https://picsum.photos/seed/momentum/600/400",
+      "imageHint": "website screenshot"
+    },
+    {
+      "id": "project-drops",
+      "description": "Screenshot of the DROPS Health Tracker App",
+      "imageUrl": "https://picsum.photos/seed/drops/600/400",
+      "imageHint": "app interface"
+    },
+    {
+      "id": "project-wtwr",
+      "description": "Screenshot of the WTWR (What To Wear) app",
+      "imageUrl": "https://picsum.photos/seed/wtwr/600/400",
+      "imageHint": "mobile app"
+    },
+    {
+      "id": "project-codejam",
+      "description": "Screenshot of a Code Jam project",
+      "imageUrl": "https://picsum.photos/seed/codejam/600/400",
+      "imageHint": "web design"
+    }
+  ]
+}
