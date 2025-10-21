@@ -5,6 +5,18 @@ import { Toaster } from '@/components/ui/toaster';
 export const metadata: Metadata = {
   title: 'Mia Truong — Full-Stack Developer',
   description: 'I build scalable, user-focused web applications with React, TypeScript, and Node.js — combining logic and creativity to deliver intuitive, modern experiences.',
+  openGraph: {
+    title: 'Mia Truong — Full-Stack Developer',
+    description: 'I build scalable, user-focused web applications with React, TypeScript, and Node.js — combining logic and creativity to deliver intuitive, modern experiences.',
+    images: ['/mia.jpg'],
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Mia Truong — Full-Stack Developer',
+    description: 'I build scalable, user-focused web applications with React, TypeScript, and Node.js — combining logic and creativity to deliver intuitive, modern experiences.',
+    images: ['/mia.jpg'],
+  },
 };
 
 export default function RootLayout({
