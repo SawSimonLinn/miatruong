@@ -12,9 +12,8 @@ export function ProjectCard({ project }: { project: Project }) {
         <Card className="flex flex-col overflow-hidden">
             <CardHeader className="p-0">
                 <Image
-                    src={project.image.imageUrl}
-                    alt={project.image.description}
-                    data-ai-hint={project.image.imageHint}
+                    src={project.image}
+                    alt={`${project.title} screenshot`}
                     width={600}
                     height={400}
                     className="aspect-video w-full object-cover"

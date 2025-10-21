@@ -26,9 +26,8 @@ export function ProjectDetailModal({ project, children }: { project: Project, ch
         </DialogHeader>
         <div className="space-y-6">
             <Image
-                src={project.image.imageUrl}
-                alt={project.image.description}
-                data-ai-hint={project.image.imageHint}
+                src={project.image}
+                alt={`${project.title} screenshot`}
                 width={1200}
                 height={675}
                 className="w-full rounded-lg aspect-video object-cover"
