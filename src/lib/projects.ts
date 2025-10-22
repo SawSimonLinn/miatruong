@@ -10,15 +10,6 @@ export type Project = {
 
 export const projects: Project[] = [
     {
-        id: "portfolio-website",
-        title: "Personal Portfolio Website",
-        description: "Modern, responsive portfolio website built with Next.js 15 and shadcn/ui. Features dark mode, smooth animations, project showcase, and downloadable resume. Deployed with optimized performance and SEO.",
-        tech: ["Next.js", "React", "TypeScript", "TailwindCSS", "shadcn/ui"],
-        image: "/projects/portfolio.png", // You'll need to add a screenshot of your portfolio
-        githubUrl: "https://github.com/SawSimonLinn/miatruong",
-        liveUrl: "https://www.miatruong.com/",
-    },
-    {
         id: "momentum-internship",
         title: "Momentum Internship Program Website",
         description: "Designed and deployed a full website for intern recruitment & partnerships. Built a secure email system with Nodemailer + OAuth 2.0.",
@@ -56,7 +47,7 @@ export const projects: Project[] = [
     {
         id: "code-jam-be-cool-about-wildfires",
         title: "Be Cool About Wildfires Project",
-        description: "Won 1st place for Be Cool About Wildfires Hackathon styled project competition. ",
+        description: "Won 1st place for Be Cool About Wildfires hackathon-styled coding competition. ",
         tech: ["HTML", "CSS", "JavaScript"],
         image: "/projects/be-cool-about-wildfires.png", // Add your own image here
         githubUrl: "https://github.com/trangmtruong/BeCoolAboutWildfires",

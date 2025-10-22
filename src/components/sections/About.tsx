@@ -33,9 +33,8 @@ export function About() {
               About Me
             </h2>
             <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-balance">
-              I’m Mia Truong, a Full-Stack Developer experienced in React,
-              TypeScript, Node.js, and REST APIs. My background in business
-              ownership and hospitality refined my attention to detail,
+              I’m Mia Truong, a Full-Stack Software Engineer experienced in React,
+              TypeScript, Node.js, and REST APIs. My background in beauty and hospitality industries refined my attention to detail,
               communication, and creativity — now powering my software
               engineering work. Fluent in English and Vietnamese, I value
               teamwork, learning, and building polished products that make life

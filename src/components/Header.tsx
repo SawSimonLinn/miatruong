@@ -50,7 +50,7 @@ export function Header() {
 
         <div className="flex items-center gap-4">
           <Button asChild className="hidden md:flex">
-            <a href="/MiaTruong_Resume.pdf" download>Download Resume</a>
+            <a href="/mia-truong-one-page-resume.pdf" download>Download Resume</a>
           </Button>
           <Sheet>
             <SheetTrigger asChild>
@@ -79,7 +79,7 @@ export function Header() {
                   ))}
                 </nav>
                 <Button asChild size="lg">
-                    <a href="/MiaTruong_Resume.pdf" download>Download Resume</a>
+                    <a href="/mia-truong-one-page-resume.pdf" download>Download Resume</a>
                 </Button>
               </div>
             </SheetContent>
