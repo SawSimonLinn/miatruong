@@ -106,9 +106,9 @@ export default {
           "50%": { transform: "translateY(-8px)" },
         },
         twinkle: {
-          "0%": { opacity: 0 },
-          "50%": { opacity: 1 },
-          "100%": { opacity: 0 },
+          "0%": { opacity: "0" },
+          "50%": { opacity: "1" },
+          "100%": { opacity: "0" },
         },
       },
       animation: {

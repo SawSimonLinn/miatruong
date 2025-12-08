@@ -3,6 +3,7 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://miatruong.com'),
   title: 'Mia Truong — Full-stack Software Engineer',
   description: 'I build scalable, user-focused web applications with React, TypeScript, and Node.js — combining logic and creativity to deliver intuitive, modern experiences.',
   openGraph: {

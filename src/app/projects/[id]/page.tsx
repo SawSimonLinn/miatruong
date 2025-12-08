@@ -1,6 +1,6 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { projects, type Project } from "@/lib/projects";
+import { projects } from "@/lib/projects";
 import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -10,8 +10,9 @@ import { notFound } from "next/navigation";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 
 
-export default function ProjectDetailsPage({ params }: { params: { id: string } }) {
-  const project = projects.find((p) => p.id === params.id);
+export default async function ProjectDetailsPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  const project = projects.find((p) => p.id === id);
 
   if (!project) {
     notFound();
@@ -32,9 +33,8 @@ export default function ProjectDetailsPage({ params }: { params: { id: string } 
             <Card>
                 <CardHeader>
                     <Image
-                        src={project.image.imageUrl}
-                        alt={project.image.description}
-                        data-ai-hint={project.image.imageHint}
+                        src={project.image}
+                        alt={`${project.title} preview`}
                         width={1200}
                         height={675}
                         className="w-full rounded-t-lg aspect-video object-cover"
