@@ -10,13 +10,32 @@ const softSkills = [
   "Creativity",
 ];
 const hardSkills = [
+  "Next.js",
   "React",
   "TypeScript",
   "Node.js",
+  "Express",
+  "GraphQL",
+  "Apollo Client",
+  "OAuth 2.0",
+  "Resend",
+  "Nodemailer",
   "Tailwind CSS",
+  "shadcn/ui",
+  "Headless UI",
   "MongoDB",
   "AWS",
+  "Google Cloud",
+  "Vercel",
+  "ESLint",
+  "Prettier",
+  "Jest",
+  "Vitest",
   "Git",
+  "GitHub",
+  "Figma",
+  "Jira",
+  "ClickUp",
 ];
 
 export function About() {

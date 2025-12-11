@@ -32,7 +32,7 @@ export function Hero() {
             <Link href="/projects">View Projects</Link>
           </Button>
           <Button asChild variant="secondary" size="lg">
-            <a href="/mia-truong-one-page-resume.pdf" download>
+            <a href="/TMT_Fullstack_PublicRes_Dec1125_.pdf" download>
               Download Resume
             </a>
           </Button>
