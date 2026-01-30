@@ -34,7 +34,7 @@ export const projects: Project[] = [
         tech: ["React", "Vite", "React Router", "CSS", "OpenWeather API", "ESLint", "Prettier", "Node.js", "Express", "MongoDB", "Mongoose", "JWT", "bcrypt", "celebrate (Joi)", "validator.js", "helmet", "cors", "winston", "Postman", "Jest", "nodemon", "pm2", "nginx", "Certbot", "Google Cloud", "Figma", "VS Code", "Git", "GitHub"],
         image: "/projects/w2w.png", // Add your own image here
         githubUrl: "https://github.com/trangmtruong/se_project_react",
-        liveUrl: "https://w2w.crabdance.com/",
+        liveUrl: "https://whattowear-wine.vercel.app/",
     },
     {
         id: "drops-health-tracker",
