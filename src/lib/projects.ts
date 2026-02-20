@@ -10,6 +10,15 @@ export type Project = {
 
 export const projects: Project[] = [
     {
+        id: "dunedin",
+        title: "Dunedin",
+        description: "A responsive restaurant site for Dunedin (New Zealand Eats) in North Park, San Diego. Features a hero section with \"New Zealand roots, North Park soul\" over lush greenery and rustic wood, navigation with Menus dropdown, Private Events, Order Online, Contact Us, and Book Reservation CTA, plus a Burger of the Month club promo modal. Built with a modern front-end stack for typography, imagery, and interactive modals.",
+        tech: ["Next.js", "React", "TypeScript", "Tailwind CSS", "HTML5", "CSS3", "JavaScript", "Responsive Design", "Vercel", "Git", "GitHub"],
+        image: "/projects/dunedin.png",
+        githubUrl: "https://github.com/trangmtruong/dunedin",
+        liveUrl: "https://www.dunedinsd.com/",
+    },
+    {
         id: "tts-glow-bar",
         title: "TT's Glow Bar",
         description: "Responsive Next.js site for an esthetician to promote services and portfolio, featuring SEO-focused metadata, a promotional banner, popup, theme toggle, mobile nav, optimized images, portfolio style filters, Google Maps, Square booking routing, and a secure Resend contact form with reCAPTCHA to boost visibility and bookings.",
@@ -30,7 +39,7 @@ export const projects: Project[] = [
     {
         id: "wtwr-app",
         title: "WTWR (What To Wear)",
-        description: "A full-stack React/Vite app that pulls live weather from OpenWeather, filters a community wardrobe by today’s conditions, and lets users sign up, log in, add their own garments with photos/weather tags, like/unlike/delete items, and manage their profile via JWT-protected routes backed by an Express/MongoDB API and deployed on Google Cloud.",
+        description: "A full-stack React/Vite app that pulls live weather from OpenWeather, filters a community wardrobe by today's conditions, and lets users sign up, log in, add their own garments with photos/weather tags, like/unlike/delete items, and manage their profile via JWT-protected routes backed by an Express/MongoDB API and deployed on Google Cloud.",
         tech: ["React", "Vite", "React Router", "CSS", "OpenWeather API", "ESLint", "Prettier", "Node.js", "Express", "MongoDB", "Mongoose", "JWT", "bcrypt", "celebrate (Joi)", "validator.js", "helmet", "cors", "winston", "Postman", "Jest", "nodemon", "pm2", "nginx", "Certbot", "Google Cloud", "Figma", "VS Code", "Git", "GitHub"],
         image: "/projects/w2w.png", // Add your own image here
         githubUrl: "https://github.com/trangmtruong/se_project_react",
@@ -56,7 +65,7 @@ export const projects: Project[] = [
     {
         id: "code-jam-cocktail-chronicles",
         title: "Cocktail Chronicles",
-        description: "A responsive web page that won first place in both Judges’ Choice and Fans’ Favorite against five other teams, emerging from a first-time team project. It showcases cocktail recipes with smooth animations and transitions, blends light and dark themes, and includes a quick back-to-top interaction in an accessible, cohesive system, showing how a four-person crew shipped a polished multi-device experience in just five hackathon days using only semantic HTML and CSS (BEM) without any JavaScript frameworks.",
+        description: "A responsive web page that won first place in both Judges' Choice and Fans' Favorite against five other teams, emerging from a first-time team project. It showcases cocktail recipes with smooth animations and transitions, blends light and dark themes, and includes a quick back-to-top interaction in an accessible, cohesive system, showing how a four-person crew shipped a polished multi-device experience in just five hackathon days using only semantic HTML and CSS (BEM) without any JavaScript frameworks.",
         tech: ["HTML5", "CSS3", "BEM", "Flexbox"],
         image: "/projects/cocktail-chronicles.png", // Add your own image here
         githubUrl: "https://github.com/trangmtruong/Cocktail_Chronicles",

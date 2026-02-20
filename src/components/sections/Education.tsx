@@ -3,6 +3,11 @@ import { GraduationCap } from "lucide-react";
 
 const educations = [
     {
+        institution: "San Diego City College",
+        degree: "Associate Degree in Computer Science",
+        year: "2026 – 2027"
+    },
+    {
         institution: "TripleTen",
         degree: "Software Engineering Certificate",
         year: "2025"
